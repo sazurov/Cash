@@ -5,19 +5,10 @@ Console.WriteLine("Введите сумму,которую необходимо
 
 int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"\n{n / mas[0]} Купюры номиналом {mas[0]}");
-
-Console.WriteLine($"\n{n / mas[1]} Купюры номиналом {mas[1]}");
-
-Console.WriteLine($"\n{n / mas[2]} Купюры номиналом {mas[2]}");
-
-Console.WriteLine($"\n{n / mas[3]} Купюры номиналом {mas[3]}");
-
-Console.WriteLine($"\n{n / mas[4]} Купюры номиналом {mas[4]}");
-
-Console.WriteLine($"\n{n / mas[5]} Купюры номиналом {mas[5]}");
-
-Console.WriteLine($"\n{n / mas[6]} Купюры номиналом {mas[6]}");
+for (int i = 0; i < 1; i++)
+{
+   foreach (int x in mas) Console.WriteLine($"{n/x} Купюры номиналом {x}");
+}
 
 
 
